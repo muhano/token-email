@@ -31,8 +31,8 @@ async.waterfall([
   });
   var mailOptions = {
    to: req.user.email,
-   from: 'no-reply@erabelajar.com',
-   subject: 'Erabelajar Email Verification',
+   from: 'no-reply@gmail.com',
+   subject: 'Email Verification',
    html: '<p>Hai ' + user.email + ','+
          'terimakasih telah membuat akun di aplikasi kami.</br>'+
          'Silahkan verifikasi email dengan mengklik link berikut:</br> ' +
